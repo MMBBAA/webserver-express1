@@ -1,0 +1,23 @@
+{
+    "name": "06-webserver",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "start": "node server.js",
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "nodemon": "nodemon server.js"
+    },
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+        "axios": "^0.19.2",
+        "colors": "^1.4.0",
+        "express": "^4.17.1",
+        "hbs": "^4.1.1",
+        "yargs": "^15.3.1"
+    },
+    "devDependencies": {
+        "nodemon": "^2.0.4"
+    }
+}
